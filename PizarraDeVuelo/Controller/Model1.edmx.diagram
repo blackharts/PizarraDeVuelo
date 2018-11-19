@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="76296fcb3c2847fb956d8508d2b62558" Name="Diagram1">
+        <EntityTypeShape EntityType="Database1Model.Areonave" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Localidad" Width="1.5" PointX="3.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Mision" Width="1.5" PointX="3.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Piloto" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Reservas" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Vuelo" Width="1.5" PointX="6" PointY="3" IsExpanded="true" />
+        <AssociationConnector Association="Database1Model.fk_aeronave" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.fk_avion" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.fk_desde" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.fk_hasta" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.fk_mision" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.fk_pilot" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.fk_pilot2" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
