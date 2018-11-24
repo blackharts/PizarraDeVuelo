@@ -109,6 +109,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="IngresarPiloto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IngresarPiloto.Designer.cs">
+      <DependentUpon>IngresarPiloto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IngresoAvion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IngresoAvion.Designer.cs">
+      <DependentUpon>IngresoAvion.cs</DependentUpon>
+    </Compile>
     <Compile Include="IngresoVuelo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +131,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IngresarPiloto.resx">
+      <DependentUpon>IngresarPiloto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IngresoAvion.resx">
+      <DependentUpon>IngresoAvion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IngresoVuelo.resx">
       <DependentUpon>IngresoVuelo.cs</DependentUpon>
